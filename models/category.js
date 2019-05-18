@@ -15,7 +15,7 @@ const getCategories = (db) => async () => {
 
     return categoriesWithSlug
 }
-
+ 
 module.exports = {
     getCategories, getCategoyById
 }
